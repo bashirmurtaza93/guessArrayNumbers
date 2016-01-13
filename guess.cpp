@@ -8,6 +8,11 @@ using std::cout;
 using std::cin;
 using std::vector;
 using std::endl;
+/* New Possible change, instead of vectoring being cleared, it would stay full.
+The player would have to memorize the entire sequence as it continues.
+*/
+
+
 
 int main() {
 	int number[] = { 1,2,3,4 };
