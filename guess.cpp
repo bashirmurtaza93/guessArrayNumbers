@@ -10,6 +10,18 @@ using std::vector;
 using std::endl;
 /* New Possible change, instead of vectoring being cleared, it would stay full.
 The player would have to memorize the entire sequence as it continues.
+
+
+Additional Problems and solutions
+#1. Originally a problem would have been was setting the keys/swipe to a variable.
+   Solution: In c# this is do-able. Assigning a key to a var.
+   
+#2. Vectors don't seem to work the same way they do in C++
+
+    Solution:
+#3 Setting the animation to the binding of the variable/key.
+
+    Solution: 
 */
 
 
