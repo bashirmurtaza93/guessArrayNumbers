@@ -10,22 +10,17 @@ using std::vector;
 using std::endl;
 /* New Possible change, instead of vectoring being cleared, it would stay full.
 The player would have to memorize the entire sequence as it continues.
-
-
 Additional Problems and solutions
 #1. Originally a problem would have been was setting the keys/swipe to a variable.
    Solution: In c# this is do-able. Assigning a key to a var.
    
 #2. Vectors don't seem to work the same way they do in C++
-
     Solution:
 #3 Setting the animation to the binding of the variable/key.
-
     Solution: 
 #4 Suggestion/idea. Should the game have a timer? After every
 swipe you only have 3 to 4 seconds to input the next one.
 This enforces users to not be able to cheat.
-
 */
 
 
@@ -34,13 +29,13 @@ int main() {
 	int number[] = { 1,2,3,4 };
 
 	srand(time(NULL));
-
+    	int a = 5;
 	int tries = 3;
 	while (tries > 0) {
 		cout << "Welcome" << endl;
 		vector<int> rando;
 		vector<int> player;
-		int a = 5;
+		
 		int z = 0;
 
 		for (int x = 0; x < a; x++) {
@@ -65,8 +60,8 @@ int main() {
 			cout << "You're correct!" << endl;
 			rando.clear();
 			player.clear();
-			a++;
-			break;
+			++a;
+			continue;
 
 		}
 		else {
@@ -75,14 +70,12 @@ int main() {
 			player.clear();
 			tries--;
 			a--;
-			break;
+			continue;
 		}
 
 
 
 		/* Print stuff here
-
-
 		*/
 	} // end while
 
