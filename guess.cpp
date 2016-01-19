@@ -22,6 +22,10 @@ Additional Problems and solutions
 #3 Setting the animation to the binding of the variable/key.
 
     Solution: 
+#4 Suggestion/idea. Should the game have a timer? After every
+swipe you only have 3 to 4 seconds to input the next one.
+This enforces users to not be able to cheat.
+
 */
 
 
